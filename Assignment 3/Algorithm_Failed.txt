@@ -1,0 +1,23 @@
+Algorithm failed on following Datasets:
+
+
+---- DATASET 1 ----
+
+Reason: Because some data points of each class are near to other class points hence they are classified wrongly.
+
+
+---- DATASET 3 ----
+
+Reason: Firstly it contains noise which is difficult to classify in single class by k-mean clustering so it is distributed among different classes, also then we have 
+one class extra so one cluster is broken in two parts (we can see in plot) . Secondly, circular type of datasets are difficult to classify because mean value of 
+such clusters are close.
+
+
+---- DATASET 4 ----
+
+Reason: because smile and eyes are close to outside class (circular) hence difficult to classify.
+
+
+---- DATASET 6 ----
+
+Reason: circular type of datasets are difficult to classify because mean value of such clusters are close.
